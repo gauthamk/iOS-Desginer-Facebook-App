@@ -12,6 +12,15 @@
 		FC326A3919BB98BE00A271E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC326A3719BB98BE00A271E4 /* Main.storyboard */; };
 		FC326A3B19BB98BE00A271E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC326A3A19BB98BE00A271E4 /* Images.xcassets */; };
 		FC326A4719BB98BE00A271E4 /* FB_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC326A4619BB98BE00A271E4 /* FB_AppTests.swift */; };
+		FC326A5119BC2A0F00A271E4 /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC326A5019BC2A0F00A271E4 /* NewsFeedViewController.swift */; };
+		FC326A5419BC2B2100A271E4 /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC326A5319BC2B2100A271E4 /* RequestsViewController.swift */; };
+		FC326A5619BC2B3100A271E4 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC326A5519BC2B3100A271E4 /* MessagesViewController.swift */; };
+		FC326A5819BC2B4700A271E4 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC326A5719BC2B4700A271E4 /* NotificationsViewController.swift */; };
+		FC326A5A19BC2B6300A271E4 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC326A5919BC2B6300A271E4 /* MoreViewController.swift */; };
+		FC326A5C19BCEA7B00A271E4 /* StoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC326A5B19BCEA7B00A271E4 /* StoryDetailViewController.swift */; };
+		FC326A6019BE663E00A271E4 /* CreateStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC326A5F19BE663E00A271E4 /* CreateStatusViewController.swift */; };
+		FC326A6219BE67D900A271E4 /* UploadPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC326A6119BE67D900A271E4 /* UploadPhotoViewController.swift */; };
+		FC326A6419BE68D500A271E4 /* CheckinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC326A6319BE68D500A271E4 /* CheckinViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,15 @@
 		FC326A4019BB98BE00A271E4 /* FB-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FB-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC326A4519BB98BE00A271E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC326A4619BB98BE00A271E4 /* FB_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FB_AppTests.swift; sourceTree = "<group>"; };
+		FC326A5019BC2A0F00A271E4 /* NewsFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeedViewController.swift; sourceTree = "<group>"; };
+		FC326A5319BC2B2100A271E4 /* RequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsViewController.swift; sourceTree = "<group>"; };
+		FC326A5519BC2B3100A271E4 /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		FC326A5719BC2B4700A271E4 /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		FC326A5919BC2B6300A271E4 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		FC326A5B19BCEA7B00A271E4 /* StoryDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryDetailViewController.swift; sourceTree = "<group>"; };
+		FC326A5F19BE663E00A271E4 /* CreateStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateStatusViewController.swift; sourceTree = "<group>"; };
+		FC326A6119BE67D900A271E4 /* UploadPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadPhotoViewController.swift; sourceTree = "<group>"; };
+		FC326A6319BE68D500A271E4 /* CheckinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckinViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +93,7 @@
 		FC326A3019BB98BE00A271E4 /* FB-App */ = {
 			isa = PBXGroup;
 			children = (
+				FC326A5219BC2A1600A271E4 /* View Controllers */,
 				FC326A3319BB98BE00A271E4 /* AppDelegate.swift */,
 				FC326A3519BB98BE00A271E4 /* ViewController.swift */,
 				FC326A3719BB98BE00A271E4 /* Main.storyboard */,
@@ -107,6 +126,22 @@
 				FC326A4519BB98BE00A271E4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC326A5219BC2A1600A271E4 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FC326A6319BE68D500A271E4 /* CheckinViewController.swift */,
+				FC326A5B19BCEA7B00A271E4 /* StoryDetailViewController.swift */,
+				FC326A5919BC2B6300A271E4 /* MoreViewController.swift */,
+				FC326A5719BC2B4700A271E4 /* NotificationsViewController.swift */,
+				FC326A5519BC2B3100A271E4 /* MessagesViewController.swift */,
+				FC326A5319BC2B2100A271E4 /* RequestsViewController.swift */,
+				FC326A5019BC2A0F00A271E4 /* NewsFeedViewController.swift */,
+				FC326A5F19BE663E00A271E4 /* CreateStatusViewController.swift */,
+				FC326A6119BE67D900A271E4 /* UploadPhotoViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,8 +243,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC326A5A19BC2B6300A271E4 /* MoreViewController.swift in Sources */,
+				FC326A5619BC2B3100A271E4 /* MessagesViewController.swift in Sources */,
 				FC326A3619BB98BE00A271E4 /* ViewController.swift in Sources */,
 				FC326A3419BB98BE00A271E4 /* AppDelegate.swift in Sources */,
+				FC326A6219BE67D900A271E4 /* UploadPhotoViewController.swift in Sources */,
+				FC326A5819BC2B4700A271E4 /* NotificationsViewController.swift in Sources */,
+				FC326A6019BE663E00A271E4 /* CreateStatusViewController.swift in Sources */,
+				FC326A5C19BCEA7B00A271E4 /* StoryDetailViewController.swift in Sources */,
+				FC326A6419BE68D500A271E4 /* CheckinViewController.swift in Sources */,
+				FC326A5419BC2B2100A271E4 /* RequestsViewController.swift in Sources */,
+				FC326A5119BC2A0F00A271E4 /* NewsFeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +439,7 @@
 				FC326A4C19BB98BE00A271E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC326A4D19BB98BE00A271E4 /* Build configuration list for PBXNativeTarget "FB-AppTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +448,7 @@
 				FC326A4F19BB98BE00A271E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
